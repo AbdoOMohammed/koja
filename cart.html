@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="../Boot&Font/bootstrap/bootstrap.min.css">
+    <!--Start Home Style -->
+    <link rel="stylesheet" href="index_style.css">
+    <!-- End Home Style -->
+    <!-- Start Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,400&amp;display=swap" rel="stylesheet">
+    <!-- End Google Fonts -->
+    <link rel="icon" href="Capture.PNG">
+    <!-- End Links -->
+    <title>Car</title>
+</head>
+
+<body>
+
+    <!-- Start header -->
+
+    <section id="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="Capture.PNG" alt="homeLogo">
+            </a>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li class="link">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="link">
+                    <a href="shop.html">Sign in</a>
+                </li>
+                <li class="link">
+                    <a class="active" id="lg-cart" href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </li>
+                <a href="#" id="close"><i class="fas fa-times"></i></a>
+            </ul>
+
+        </div>
+        <div id="mobile">
+            <a href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+            <a href="#" id="bar"> <i class="fas fa-outdent"></i> </a>
+        </div>
+    </section>
+
+    <!-- End header -->
+    <section id="page-header" class="about-header">
+        <h2>Cart</h2>
+        <p>Let's see what you have.</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>price</td>
+                    <td>Quntaty</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="WhatsApp_Image_2023-05-01_at_13.49.jpg" alt="product1"></td>
+                    <td>Cartoon Astrunate t-shirt</td>
+                    <td>$118.25</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.25</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="WhatsApp_Image_2023-05-01_at_13.49.jpg" alt="product1"></td>
+                    <td>Cartoon Astrunate t-shirt</td>
+                    <td>$75.25</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$75.25</td>
+                </tr>
+                <tr>
+                    <td><i class="far fa-times-circle"></i></td>
+                    <td><img src="WhatsApp_Image_2023-05-01_at_13.49.jpg" alt="product1"></td>
+                    <td>Cartoon Astrunate t-shirt</td>
+                    <td>$158</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$158</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+       
+        <div id="subTotal">
+            <h3>Cart totals</h3>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>$118.25</td>
+                </tr>
+                <tr>
+                    <td>Delivery</td>
+                    <td>$0.00</td>
+                </tr>
+               
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$118.25</strong></td>
+                </tr>
+            </table>
+            <button class="normal">proceed to checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="copyright">
+            <p> All The right reserved for Cara, 2022</p>
+        </div>
+    </footer>
+    <script src="all.min.js"></script>
+    <script src="bootstrap.bundle.min.js "></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
